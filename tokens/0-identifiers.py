@@ -17,6 +17,8 @@ first name
 6] python is case sensitive lang.
 firstName, FirstName, FIRSTNAME, firstname, first_name
 
+7] you can not use keyword as identifier.
+for = 10
 
 #--------------------------------------------------------------
 What is Snake Case?
