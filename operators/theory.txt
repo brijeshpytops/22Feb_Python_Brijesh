@@ -1,0 +1,58 @@
+In Python, operators are special symbols or keywords that are used to perform operations on operands. Operands are the values or variables on which the operations are performed. Python supports various types of operators, including arithmetic operators, comparison operators, logical operators, assignment operators, bitwise operators, membership operators, and identity operators. Here's a brief overview of each type:
+
+
+Arithmetic Operators:
+
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Floor Division (//)
+Modulus (%)
+Exponentiation (**)
+
+
+Comparison Operators:
+
+Equal to (==)
+Not equal to (!=)
+Greater than (>)
+Less than (<)
+Greater than or equal to (>=)
+Less than or equal to (<=)
+Logical Operators:
+
+Logical AND (and)
+Logical OR (or)
+Logical NOT (not)
+Assignment Operators:
+
+Assignment (=)
+Add and assign (+=)
+Subtract and assign (-=)
+Multiply and assign (*=)
+Divide and assign (/=)
+Modulus and assign (%=)
+Floor divide and assign (//=)
+Exponentiate and assign (**=)
+Bitwise AND and assign (&=)
+Bitwise OR and assign (|=)
+Bitwise XOR and assign (^=)
+Bitwise left shift and assign (<<=)
+Bitwise right shift and assign (>>=)
+Bitwise Operators:
+
+Bitwise AND (&)
+Bitwise OR (|)
+Bitwise XOR (^)
+Bitwise NOT (~)
+Bitwise left shift (<<)
+Bitwise right shift (>>)
+Membership Operators:
+
+in: Evaluates to True if a sequence contains a specified value.
+not in: Evaluates to True if a sequence does not contain a specified value.
+Identity Operators:
+
+is: Evaluates to True if the variables on either side of the operator point to the same object.
+is not: Evaluates to True if the variables on either side of the operator do not point to the same object.
