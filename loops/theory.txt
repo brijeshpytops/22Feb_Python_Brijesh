@@ -1,0 +1,17 @@
+
+Loops in Python are used to repeatedly execute a block of code as long as a certain condition is true or for a specific number of times. There are two main types of loops in Python: for loops and while loops.
+
+for loops are used for iterating over a sequence (such as a list, tuple, string, or range) or any iterable object.
+
+syntax 
+
+for var in iterable_var:
+    # code of block
+
+While Loops:
+while loops are used to repeatedly execute a block of code as long as a condition is true.
+
+syntax:
+
+while(condition):
+    # code of block
