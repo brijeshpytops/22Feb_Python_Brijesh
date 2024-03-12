@@ -1,0 +1,24 @@
+Conditional statements in Python are used to execute different blocks of code based on whether a certain condition is true or false. The most common conditional statements in Python are if, elif (short for "else if"), nested if,and else.
+
+if syntax:
+
+if (condition1 and condition2 or condition3):
+    # block of code
+
+if_else syntax:
+
+if (condition):
+    # block of code
+else:
+    # block of code
+
+if_elif_ladder syntx:
+
+if (condition1):
+    # block of code
+elif (copndition2):
+    # block of code
+...
+else:
+    # block of code
+
