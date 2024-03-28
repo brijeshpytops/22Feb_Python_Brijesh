@@ -1,9 +1,9 @@
-file = open('example.txt', 'w')
+# file = open('example.txt', 'w')
 
-print(file.tell())
-file.seek(6)
-print(file.tell())
-file.write("-------")
+# print(file.tell())
+# file.seek(6)
+# print(file.tell())
+# file.write("-------")
 
 # # open('example.txt', 'x')
 
@@ -38,7 +38,11 @@ file.write("-------")
 
 # print(r"brijesh go\ndaliya")
 
-# import os
+import os
+import uuid
+
+# open(f'{uuid.uuid4()}.txt', 'x')
+os.rename('3749d3a1-23a6-49b4-ac3d-31c951cfa776.txt', 'brijesh.txt')
 
 # os.system('py app.py')
 # os.system('type nul > new_sample.py')
