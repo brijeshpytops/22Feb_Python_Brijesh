@@ -11,23 +11,23 @@ keywords - try, except, else, finally, raise, assert
 
 import datetime
 
-print("start")
-try:
-    a = int(input("Enter a: "))
-    b = int(input("Enter b: "))
-    result = (a/b) + c + "hello"
-except ZeroDivisionError:
-    print("You can not devide by 0")
-# except TypeError:
-#     print("You can not concate float with str")
-except Exception as e:
-    current_time = datetime.datetime.now().strftime('%d-%m-%Y, %I:%M:%S %p')
-    print(f"{current_time} - {e}") 
-else:
-    print(result)
-finally:
-    print("I will execute anyway") 
-print("end")
+# print("start")
+# try:
+#     a = int(input("Enter a: "))
+#     b = int(input("Enter b: "))
+#     # result = (a/b) + c + "hello"
+# except ZeroDivisionError:
+#     print("You can not devide by 0")
+# # except TypeError:
+# #     print("You can not concate float with str")
+# except Exception as e:
+#     current_time = datetime.datetime.now().strftime('%d-%m-%Y, %I:%M:%S %p')
+#     print(f"{current_time} - {e}") 
+# else:
+#     # print(result)
+# finally:
+#     print("I will execute anyway") 
+# print("end")
 
 # bal = 10000
 # withdrow = 2000
