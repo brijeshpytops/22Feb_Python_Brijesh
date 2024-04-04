@@ -68,30 +68,60 @@
 # cat = animal()
 # print(cat.speak("meow meow"))
 
-import pandas as pd
-
-class animal:
-    def animal_property(self, name, voice):
-        return f"Name: {name},\nVoice:{voice}"
-
-animal_data = []
-flag = True
-while(flag):
-    name = input("Enter a animal name: ") 
-    voice = input("Enter animal voice: ")
-    print(animal().animal_property(name, voice))
-    animal_data.append((name, voice))
-    yesNo = input("You want to contine? [y/n]: ").lower()
-    if yesNo == 'y':
-        flag = True
-    else:
-        flag = False
-
-# Creating a DataFrame
-df = pd.DataFrame(animal_data, columns=['animal_name', 'animal_voice'])
-
-# Writing DataFrame to an Excel file
-excel_filename = 'animal_sounds.xlsx'
-df.to_excel(excel_filename, index=False)
-
-print(f"Data has been written to {excel_filename} successfully.")
+# import pandas as pd
+# 
+# class animal:
+#     def animal_property(self, name, voice):
+#         return f"Name: {name},\nVoice:{voice}"
+# 
+# animal_data = []
+# flag = True
+# while(flag):
+#     name = input("Enter a animal name: ") 
+#     voice = input("Enter animal voice: ")
+#     print(animal().animal_property(name, voice))
+#     animal_data.append((name, voice))
+#     yesNo = input("You want to contine? [y/n]: ").lower()
+#     if yesNo == 'y':
+#         flag = True
+#     else:
+#         flag = False
+# 
+# # Creating a DataFrame
+# df = pd.DataFrame(animal_data, columns=['animal_name', 'animal_voice'])
+# 
+# # Writing DataFrame to an Excel file
+# excel_filename = 'animal_sounds.xlsx'
+# df.to_excel(excel_filename, index=False)
+# 
+# print(f"Data has been written to {excel_filename} successfully.")
+# 
+# class bike:
+#     # data member
+#     name = "ktm"
+#     color = "red"
+# 
+#     # member function
+#     def break_(yoyo):
+#         print("Break")
+# 
+#     def horn(yoyo):
+#         print("Horn")
+# 
+# bike1 = bike()
+# print(bike1.name)
+# print(bike1.color)
+# bike1.break_()
+# bike1.horn()
+# 
+# bike2 = bike()
+# print(bike2.name)
+# print(bike2.color)
+# bike2.break_()
+# bike2.horn()
+# 
+# bike3 = bike()
+# print(bike3.name)
+# print(bike3.color)
+# bike3.break_()
+# bike3.horn()
